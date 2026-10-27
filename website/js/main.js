@@ -1,7 +1,5 @@
 (function () {
-  // Fill in the numeric Apple ID from App Store Connect once the App is live.
-  // Leave empty before release: the download buttons then read "coming soon" and link nowhere.
-  const APP_STORE_ID = "";
+  const APP_STORE_ID = "6820840209";
   const APP_STORE_URL = APP_STORE_ID ? `https://apps.apple.com/app/id${APP_STORE_ID}` : null;
   const SITE_ORIGIN = "https://cangshuge.nonoor.com";
 
@@ -29,20 +27,24 @@
         return li;
       }));
     });
+    // English interface shots are not in the site assets yet; the shelf photos stay in Chinese.
+    const shotLang = lang === "en" ? "zh-Hans" : lang;
     document.querySelectorAll("img[data-shot]").forEach((img) => {
-      img.src = `./assets/screenshots/${lang}/${img.dataset.shot}.jpg`;
+      img.src = `./assets/screenshots/${shotLang}/${img.dataset.shot}.jpg`;
     });
 
     document.title = copy.metaTitle;
     setMeta('meta[name="description"]', copy.metaDescription);
     setMeta('meta[property="og:title"]', copy.metaTitle);
     setMeta('meta[property="og:description"]', copy.metaDescription);
-    setMeta('meta[property="og:image"]', `${SITE_ORIGIN}/assets/og-${lang}.jpg`);
+    setMeta('meta[property="og:image"]', `${SITE_ORIGIN}/assets/og-${shotLang}.jpg`);
 
     document.querySelectorAll("[data-app-store]").forEach((link) => {
       const label = link.querySelector("span");
       if (APP_STORE_URL) {
         link.href = APP_STORE_URL;
+        link.removeAttribute("aria-disabled");
+        link.classList.remove("is-pending");
         label.textContent = copy.download;
       } else {
         link.removeAttribute("href");

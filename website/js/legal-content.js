@@ -3,6 +3,7 @@ window.LEGAL_CONTENT = {
   "brand": {
     "zh-Hans": "藏书阁",
     "zh-Hant": "藏書閣",
+    "en": "Chinese Classics",
     "ja": "蔵書閣",
     "ko": "장서각"
   },
@@ -10,18 +11,21 @@ window.LEGAL_CONTENT = {
     "privacy": {
       "zh-Hans": "隐私政策",
       "zh-Hant": "隱私政策",
+      "en": "Privacy Policy",
       "ja": "プライバシーポリシー",
       "ko": "개인정보 처리방침"
     },
     "terms": {
       "zh-Hans": "用户协议",
       "zh-Hant": "使用者協議",
+      "en": "Terms of Use",
       "ja": "利用規約",
       "ko": "이용 약관"
     },
     "purchase": {
       "zh-Hans": "购买条款",
       "zh-Hant": "購買條款",
+      "en": "Purchase Terms",
       "ja": "購入規約",
       "ko": "구매 약관"
     }
@@ -29,6 +33,7 @@ window.LEGAL_CONTENT = {
   "updated": {
     "zh-Hans": "更新日期：2026 年 10 月 9 日",
     "zh-Hant": "更新日期：2026 年 10 月 9 日",
+    "en": "Updated: October 9, 2026",
     "ja": "更新日：2026年10月9日",
     "ko": "업데이트 날짜: 2026년 10월 9일"
   },
@@ -116,6 +121,48 @@ window.LEGAL_CONTENT = {
         {
           "title": "九、聯絡我們",
           "body": "透過「聯絡開發者」傳送的郵件會預填 App 版本、裝置型號與系統版本，僅用於排查問題，你可以在傳送前刪改；郵件內容僅用於回覆你的意見回饋。如對本政策有任何疑問，可在「規制 › 聯絡開發者」中給我們寫信，或傳送郵件至 duanwei@nonoor.com。"
+        }
+      ],
+      "en": [
+        {
+          "title": "",
+          "body": "Chinese Classics (the “app”) is built on three principles: no account, no tracking, and data that stays on the device. This policy explains what information is involved when you use the app, and how it is handled."
+        },
+        {
+          "title": "1. We do not collect personal information",
+          "body": "This app has no accounts. It does not use third-party analytics, advertising, or push services, and it has no server of its own. We do not collect your name, contact details, device identifiers, location, contacts, or any other personal information, and we do not track what you do in other apps or on websites."
+        },
+        {
+          "title": "2. Data kept only on this device",
+          "body": "The following data is kept only on your device, so the app can remember your preferences:\n· Reading settings: typeface, size, paper, layout, punctuation, seals, Home Screen icon, and more;\n· Reading history: books you opened recently, and where you left off;\n· Saved excerpts: lines you saved, and the typeface used on letter sheets;\n· Imported books: TXT and EPUB files you chose to import, stored in this app's private folder after they are read.\nThis data is not uploaded to us or to anyone else. If you turn on iCloud or a computer backup, Apple stores it with the device backup. Deleting the app deletes all of it."
+        },
+        {
+          "title": "3. System permissions",
+          "body": "This app may ask for one permission:\n· Photos (add only): used when you save a letter sheet to Photos. It can only add images, and cannot read your library. You can change this anytime in Settings › Privacy & Security › Photos.\nImporting a book uses the system file picker. The app can read only the file you select."
+        },
+        {
+          "title": "4. Network use",
+          "body": "Reading works offline. A network request happens only in the cases below, and Apple's system services handle each one:\n· Typefaces: if a text typeface is not installed yet, iOS downloads it from Apple.\n· In-app purchase: the App Store handles prices, purchases, and restoring purchases. We learn only whether a purchase is valid, not your Apple ID or payment method.\n· External links: a link on the Credits or terms pages opens in the browser, under that site's privacy policy."
+        },
+        {
+          "title": "5. Share",
+          "body": "When you share a line or a letter sheet, it goes through the system share sheet to the app you choose, and that app's privacy policy applies from then on. This app does not send anything out on its own."
+        },
+        {
+          "title": "6. Diagnostics",
+          "body": "If you choose to share with app developers in Settings › Privacy & Security › Analytics & Improvements, Apple may send us anonymous crash reports and usage statistics, used only to fix problems and improve the app. Sharing is your choice in system settings."
+        },
+        {
+          "title": "7. Children",
+          "body": "This app collects no personal information, and children may use it. A child should have a guardian's permission before making an in-app purchase. Guardians can limit purchases in Screen Time."
+        },
+        {
+          "title": "8. Updates to this policy",
+          "body": "If this policy changes, we update this page and its date in the app. A significant change in how data is handled is also noted in the app."
+        },
+        {
+          "title": "9. Contact us",
+          "body": "Mail sent from Contact the developer includes the app version, device model, and system version, used only to look into the problem. You can edit or delete that before sending. The message is used only to reply to you. If you have a question about this policy, write from Settings › Contact the developer, or email duanwei@nonoor.com."
         }
       ],
       "ja": [
@@ -288,6 +335,48 @@ window.LEGAL_CONTENT = {
           "body": "本協議未盡事宜，適用 Apple 媒體服務條款及《Apple 標準終端使用者許可協議》。如有疑問，可在「規制 › 聯絡開發者」中給我們寫信，或傳送郵件至 duanwei@nonoor.com。"
         }
       ],
+      "en": [
+        {
+          "title": "",
+          "body": "Welcome to Chinese Classics (the “app”). These terms are an agreement between you and the developer about using the app. By downloading, installing, or using the app, you have read and agree to these terms."
+        },
+        {
+          "title": "1. The service",
+          "body": "This app is a reader for the Chinese classics. It includes built-in texts, excerpts and letter sheets, layout and appearance settings, and importing books from your device. The basic features are free. Collector's Edition is an optional one-time in-app purchase, described in the Purchase Terms."
+        },
+        {
+          "title": "2. License",
+          "body": "We grant you a personal, non-exclusive, non-transferable license to use the app on Apple devices you own or control, under the App Store's rules. You may not reverse engineer, crack, or resell the app, or use it for anything unlawful."
+        },
+        {
+          "title": "3. The texts",
+          "body": "The classical texts in this app are in the public domain. The electronic texts were prepared from public digitizations of editions such as the Sibu Congkan and the Wenyuange Siku Quanshu, and each book's source is noted in the catalog. Digitizing and editing old books can introduce errors and missing characters. The texts are for reading and study, and should not be the sole basis of a scholarly citation."
+        },
+        {
+          "title": "4. What you import",
+          "body": "Books you add with Import stay on your device. We do not receive or review them. You should make sure you have the right to use what you import, and you are responsible for it."
+        },
+        {
+          "title": "5. Intellectual property",
+          "body": "The intellectual property in the app's interface, icons, illustrations, code, and original writing belongs to the developer. Third-party typefaces are used under their own licenses, described on the Credits page. Do not copy, adapt, or use them commercially without permission."
+        },
+        {
+          "title": "6. Payment and refunds",
+          "body": "Price, payment, restoring purchases, and refunds for the Collector's Edition follow the Purchase Terms."
+        },
+        {
+          "title": "7. Disclaimer",
+          "body": "The app is provided as is. We work to keep it stable, but we are not responsible for interruptions or lost data caused by the device, the system, the network, or other things outside our control. Deleting the app also deletes imported books, saved lines, and other data stored on the device."
+        },
+        {
+          "title": "8. Changes to these terms",
+          "body": "We may revise these terms as the app changes. The revised terms are published in the app, with an updated date. If you do not agree, you can stop using the app and delete it. Continuing to use it means you accept the revised terms."
+        },
+        {
+          "title": "9. Other",
+          "body": "Anything these terms do not cover follows the Apple Media Services terms and the Apple Standard EULA. If you have a question, write to us from Settings › Contact the developer, or email duanwei@nonoor.com."
+        }
+      ],
       "ja": [
         {
           "title": "",
@@ -434,6 +523,36 @@ window.LEGAL_CONTENT = {
           "body": "本條款未盡事宜，適用 Apple 媒體服務條款及《Apple 標準終端使用者許可協議》。如有疑問，可在「規制 › 聯絡開發者」中給我們寫信，或傳送郵件至 duanwei@nonoor.com。"
         }
       ],
+      "en": [
+        {
+          "title": "1. The product",
+          "body": "Chinese Classics Collector's Edition is a one-time in-app purchase. It unlocks paper tones, cinnabar column rules, leisure seals, letter sheets, Home Screen icons, and the other Collector's Edition finishes. Finishes added later are included for people who have already purchased it."
+        },
+        {
+          "title": "2. Price and payment",
+          "body": "The price is the one shown on the App Store at the time of purchase, in the currency of your Apple ID's region. Apple charges your Apple ID, and payment is complete once you confirm the purchase."
+        },
+        {
+          "title": "3. Not a subscription",
+          "body": "This product is not a subscription. It does not renew, and there are no further charges."
+        },
+        {
+          "title": "4. Restore Purchases",
+          "body": "On a device signed in to the same Apple ID, or after you delete and reinstall the app, tap Restore Purchases on the purchase page to unlock it again at no charge."
+        },
+        {
+          "title": "5. Refunds",
+          "body": "All payments are handled by Apple, and this app cannot issue a refund itself. To request one, use Apple's Report a Problem page. Apple decides the result."
+        },
+        {
+          "title": "6. Free features",
+          "body": "Reading the classics, importing books, the text typeface, punctuation, and layout are free, whether or not you buy the Collector's Edition."
+        },
+        {
+          "title": "7. Other",
+          "body": "Anything these terms do not cover follows the Apple Media Services terms and the Apple Standard EULA. If you have a question, write to us from Settings › Contact the developer, or email duanwei@nonoor.com."
+        }
+      ],
       "ja": [
         {
           "title": "一、商品について",
@@ -502,6 +621,7 @@ window.LEGAL_CONTENT = {
         "label": {
           "zh-Hans": "Apple 标准最终用户许可协议",
           "zh-Hant": "Apple 標準終端使用者許可協議",
+          "en": "Apple Standard EULA",
           "ja": "Apple 標準使用許諾契約",
           "ko": "Apple 표준 최종 사용자 사용권 계약"
         },
@@ -513,6 +633,7 @@ window.LEGAL_CONTENT = {
         "label": {
           "zh-Hans": "Apple 报告问题（申请退款）",
           "zh-Hant": "Apple 報告問題（申請退款）",
+          "en": "Report a Problem with Apple (request a refund)",
           "ja": "Apple「問題を報告」（返金のリクエスト）",
           "ko": "Apple 문제 신고(환불 요청)"
         },
@@ -522,6 +643,7 @@ window.LEGAL_CONTENT = {
         "label": {
           "zh-Hans": "Apple 标准最终用户许可协议",
           "zh-Hant": "Apple 標準終端使用者許可協議",
+          "en": "Apple Standard EULA",
           "ja": "Apple 標準使用許諾契約",
           "ko": "Apple 표준 최종 사용자 사용권 계약"
         },

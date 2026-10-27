@@ -5,6 +5,7 @@
   const UI = {
     "zh-Hans": { back: "返回首页", contact: "联系开发者" },
     "zh-Hant": { back: "返回首頁", contact: "聯絡開發者" },
+    en: { back: "Back to home", contact: "Contact the developer" },
     ja: { back: "ホームに戻る", contact: "開発者に連絡" },
     ko: { back: "홈으로 돌아가기", contact: "개발자에게 문의" },
   };

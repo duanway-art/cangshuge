@@ -1,14 +1,15 @@
 window.SiteLang = (function () {
   const STORAGE_KEY = "cangshuge.lang";
-  const SUPPORTED = ["zh-Hans", "zh-Hant", "ja", "ko"];
+  const SUPPORTED = ["zh-Hans", "zh-Hant", "en", "ja", "ko"];
   const DEFAULT_LANG = "zh-Hans";
-  const HTML_LANG = { "zh-Hans": "zh-CN", "zh-Hant": "zh-TW", ja: "ja", ko: "ko" };
+  const HTML_LANG = { "zh-Hans": "zh-CN", "zh-Hant": "zh-TW", en: "en", ja: "ja", ko: "ko" };
 
   function normalize(raw) {
     if (!raw) return null;
     const value = String(raw).toLowerCase().replace(/_/g, "-");
     if (/^zh-(hant|tw|hk|mo)/.test(value)) return "zh-Hant";
     if (value.startsWith("zh")) return "zh-Hans";
+    if (value.startsWith("en")) return "en";
     if (value.startsWith("ja")) return "ja";
     if (value.startsWith("ko")) return "ko";
     return null;
